@@ -24,8 +24,8 @@ install:
   - npm install
 
 before_script:
-  - git config --global user.name "viko16"
-  - git config --global user.email "16viko@gmail.com"
+  - git config --global user.name "suzhihui"
+  - git config --global user.email "wisdom.su@163.com"
   - git clone --branch gh-pages https://${GH_REF} dist
 
 script:
